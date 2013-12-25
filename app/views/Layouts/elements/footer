@@ -1,0 +1,35 @@
+			<div id="footer_wrap">
+				
+				<div id="footer">
+				Copyright &copy; <?php echo date("Y"); ?> ClassfieidsGeek.com
+				</div> <!-- footer -->
+			
+			</div> <!-- footer_wrap -->
+		
+		</div> <!-- container -->
+
+
+		<script type="text/javascript" src="core/libs/jquery/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript">
+		$(function () {
+			$(".button").hover(
+				function () {
+					$(this).addClass("button_hover");
+				},
+				function () {
+					$(this).removeClass("button_hover");
+				}
+			);
+			$(".middle_table tbody tr").hover(
+					function () {
+						$(this).addClass("hover");
+					},
+					function () {
+						$(this).removeClass("hover");
+					}
+				);
+		});
+		</script>
+		
+	</body>
+</html>
